@@ -1,0 +1,71 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Kavoon;
+    font-weight: lighter;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5vh 3vh;
+    position: relative; 
+}
+
+.center-logo {
+    color: #fff;
+    position: absolute; 
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-50%, -50%); 
+}
+
+.center-logo span {
+    font-size: 3.5vh; 
+}
+
+
+.links {
+    display: flex;
+    list-style-type: none;
+}
+
+.left-links {
+    justify-content: flex-start; 
+}
+
+.right-links {
+    justify-content: flex-end; 
+}
+
+.links li {
+    margin: 0 1vh;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 3.5vh; 
+}
+
+
+.fas {
+    margin-right: 0.5vh;
+}
+
+
+.links a:hover {
+    color: #ff6347;
+}
+
+@font-face {
+    font-family: kavoon;
+    src: url(/dashbord/Kavoon-Regular.ttf);
+}

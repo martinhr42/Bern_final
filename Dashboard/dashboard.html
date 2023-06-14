@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <link rel="stylesheet" href="/Dashboard/css/activties.css">
+    <link rel="stylesheet" href="/Dashboard/css/socials.css">
+    <link rel="stylesheet" href="/Dashboard/css/minFremgang.css"> 
+    <link rel="stylesheet" href="/Dashboard/css/other.css">
+    <link rel="stylesheet" href="/Dashboard/css/arne_guide.css"> 
+    <link rel="stylesheet" href="/Menu-Bar/menu_bar.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kavoon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="center-logo">
+                <span>ARNE'S VIRTUELLE VERDEN</span>
+            </div>
+            <ul class="links left-links">
+                <li><a href="dashboard"><i class="fas fa-chart-bar"></i></a></li>
+                <li><a href="/Dashboard/dashboard.html"><i class="fas fa-home"></i></a></li>
+            </ul>
+            <ul class="links right-links">
+                <li><a href="profile"><i class="fas fa-user"></i></a></li>
+                <li><a href="friends"><i class="fas fa-users"></i></a></li>
+                <li><a href="notification"><i class="fas fa-bell"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="activities">
+        <h2 class="activity-title">SPILL OG AKTIVITETER</h2>
+        <div class="button-container">
+            <button id="a1" onclick="location.href='/TvergasteinsHemmeligheter/front_page/front_page.html'">TVERGASTEINS HEMMELIGHETER</button>
+            <button id="a2" onclick="location.href='/Arnes-Quiz/html/quiz-start.html'">ARNE'S QUIZ</button>
+            <button id="a3" onclick="location.href='/Dilemma/dilemma.html'">ARNE'S <br> DILEMMAER</button>
+            <button id="a4" onclick="location.href='/Tenk-Kritisk/tenk_kritisk.html'">TENK KRITISK <br> MED ARNE</button>
+        </div>
+    </div>
+    
+
+    <div class="socials">
+        <button id="s1" onclick="location.href='/Min-Avatar/minAvatar.html'">MIN AVATAR</button>
+        <button id="s2" onclick="link">VENNER</button>
+        <button id="s3" onclick="location.href='/Diskusjon/chat.html'">DISKUSJON</button>
+        <button id="s4" onclick="link">LEDERTAVLER</button>
+    </div>
+
+    <div id="arne-guide-div">
+        <img id="arne-guide-image" src="/Dashboard/images/ArneNæss_avatar.png">
+    </div>
+
+    <button id="arne-button"  onclick="location.href='/Snakk-med-Arne/index.html'">SNAKK MED AI-ARNE!</button>
+    
+    <div class="minFremgang">
+        <h2>MIN FREMGANG</h2>
+
+        <div class="level-bar">
+            <div class="progress-bar"></div>
+        </div>
+
+        <p class="skryt_prompt">Du fikk 15 poeng i Tvergasteins hemmeligheter. Godt jobbet!</p>
+        <p class="skryt_prompt">Du fikk 10 poeng i Arne's Quiz. Der er du god!</p>
+        <p class="skryt_prompt">Du gjennomførte Arne's Dilemmaer. Meget bra jobbet!</p>
+
+        <script src="guide.js"></script>
+    </div>
+</body>
+</html>
